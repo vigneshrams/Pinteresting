@@ -1,0 +1,3 @@
+# Pinteresting Rails Sample
+
+
