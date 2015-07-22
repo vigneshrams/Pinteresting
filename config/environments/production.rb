@@ -79,5 +79,5 @@ Rails.application.configure do
 
   # Required for heroku app
   # Update 'localhost' with your hostname
-  config.action_mailer.default_url_options = { host: 'viki-streetfull.heroku.com', port: 3000 }
+  config.action_mailer.default_url_options = { host: 'viki-streetfull.herokuapp.com', port: 3000 }
 end
