@@ -1,8 +1,12 @@
 
 <div class="jumbotron center">
 	<h1>Welcome to my Sample Streetfull</h1>
-	<p>
-		<%= link_to "Log in", "#", class: "btn btn-primary" %>
-		<%= link_to "Sign up", "#", class: "btn btn-default" %>
-	</p>
+	<% if user_signed_in? %>
+		# Do something here
+	<% else %>
+		<p>
+			<%= link_to "Log in", new_user_session_path, class: "btn btn-primary" %>
+			<%= link_to "Sign up", new_user_registration_path, class: "btn btn-default" %>
+		</p>
+	<% end %>
 </div>
