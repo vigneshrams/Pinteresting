@@ -2,7 +2,7 @@
 <div class="jumbotron center">
 	<h1>Welcome to my Sample Streetfull</h1>
 	<% if user_signed_in? %>
-		# Do something here
+		<%= link_to "View Pins", pins_path, class: "btn btn-primary" %>
 	<% else %>
 		<p>
 			<%= link_to "Log in", new_user_session_path, class: "btn btn-primary" %>

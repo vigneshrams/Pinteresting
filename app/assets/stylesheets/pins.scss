@@ -9,8 +9,11 @@
 .box {
   margin: 5px;
   width: 214px;
+  box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
 }
 
 .box img {
   width: 100%;
+  border-bottom: 1px solid #ccc;
+	margin-bottom: 5px;
 }
