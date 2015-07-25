@@ -1,7 +1,13 @@
-$body-bg: #fff;
-$jumbotron-bg: #3498db;
-$brand-primary: #e74c3c;
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
 
+$body-bg: #fff;
+$jumbotron-bg: #fff;
+$brand-primary: #3498db;
+$navbar-height: 45px;
+$navbar-default-bg: #fff;
+$navbar-default-brand-color: #3498db;
+
+@import "bootstrap-sprockets";
 @import 'bootstrap';
 
 .center {

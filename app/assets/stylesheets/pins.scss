@@ -8,12 +8,15 @@
 
 .box {
   margin: 5px;
-  width: 214px;
+  width: 230px;
   box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+  border-bottom: 5px solid #3498db;
+  border-radius: 5px ;
 }
 
 .box img {
   width: 100%;
   border-bottom: 1px solid #ccc;
 	margin-bottom: 5px;
+	border-radius: 5px ;
 }
